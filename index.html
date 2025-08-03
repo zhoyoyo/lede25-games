@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+
+    <!-- some basic stuff  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>An interative game</title>
+
+    <!-- 
+      add your stylesheet 
+      base.css loads the basic stuff
+      you can tweak your css in custom.css
+      WARNING: the order of the stylesheets matters
+    -->
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- add your d3 script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  </head>
+  
+  
+  <body>
+    <h1>An interactive story</h1>
+    <p>Calculate how many years of life people like you have left in the United States.</p>
+    <div id="input-container">
+      <div class="input-fields">
+        <label id="age-input">
+          <span>Your age:</span>
+          <input type="number" id="age" min="0" max="119" step="1" required placeholder="0">
+        </label>
+
+        <label id="gender-input">
+          <span>Gender:</span>
+          <input type="radio" name="gender" value="female" checked> Female
+          <input type="radio" name="gender" value="male"> Male
+        </label>
+      </div>
+      <button id="calculate">Calculate</button>
+
+
+    </div>
+    <div id="result-container">
+      <p></p>
+      <figure class="graph graph1">
+        <p class="hint">You have spent <span></span> percent of life on earth.</p>
+        <div class="outer" style="width:100%; height:30px; border:2px solid orange;">
+          <div class="inner" style="width:0; height:30px;background:orange;">
+
+          </div>
+        </div>
+      </figure>
+      <figure class="graph graph2">
+        
+      </figure>
+    </div>
+
+  <script src="script.js"></script>
+  </body>
+</html>
