@@ -1,5 +1,6 @@
-# Develop a simple interactive story
+# Develop a simple interactive game
 
+"A game," truly I mean a story. 
 An interactive story unfolds based on the user input.
 
 ## Data
