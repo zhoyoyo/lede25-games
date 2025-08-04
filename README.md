@@ -13,7 +13,7 @@ A story of three parts.
 #### Part I:  Create the user input fields
 [👉 Link to pen](https://codepen.io/zhoyoyo/pen/MYapdKX) 
 
-### Part II:  Add output text and graphs
+#### Part II:  Add output text and graphs
 [👉 Link to pen](https://codepen.io/zhoyoyo/pen/zxvZQBe) 
 
 #### Part III:  Add an additional chart
