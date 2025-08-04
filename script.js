@@ -21,12 +21,6 @@ calculateBtn.on('click', function(){
         getLifeExpectancy(age, gender)
     }
 
-
-
-
-
-
-
 })
 
 

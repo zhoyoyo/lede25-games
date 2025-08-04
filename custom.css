@@ -66,7 +66,7 @@ body {
 }
 
 
-.graph1 {
+#result-container .graph1 {
     display: none;
     box-sizing: border-box;
     p.hint {
@@ -76,7 +76,7 @@ body {
     }
 }
 
-.graph2 {
+#result-container .graph2 {
     margin-top: 1rem;
     p {
         font-weight: bold;
